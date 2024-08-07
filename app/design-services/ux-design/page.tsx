@@ -89,10 +89,10 @@ export default function Page() {
           <h3>Enhance Your Digital Interactions</h3>
           <p>
             Transform your digital presence with our UX Design Services. Whether
-            you're developing a new app, website, or software, DMCS Ventures is
-            dedicated to delivering a user experience that goes beyond
-            functionality — it captivates and converts. Contact us today to
-            embark on a UX journey that puts your users first.
+            you&apos;re developing a new app, website, or software, DMCS
+            Ventures is dedicated to delivering a user experience that goes
+            beyond functionality — it captivates and converts. Contact us today
+            to embark on a UX journey that puts your users first.
           </p>
         </div>
       </section>

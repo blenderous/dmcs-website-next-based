@@ -93,10 +93,10 @@ export default function Page() {
           <h3>Future-Ready Digital Experiences</h3>
           <p>
             Elevate your digital presence with our Progressive Web Application
-            Development Service. Whether you're looking to enhance an existing
-            web platform or embark on a new digital venture, DMCS Ventures is
-            your partner for creating PWAs that redefine user engagement.
-            Contact us today to revolutionize your online presence.
+            Development Service. Whether you&apos;re looking to enhance an
+            existing web platform or embark on a new digital venture, DMCS
+            Ventures is your partner for creating PWAs that redefine user
+            engagement. Contact us today to revolutionize your online presence.
           </p>
         </div>
       </section>

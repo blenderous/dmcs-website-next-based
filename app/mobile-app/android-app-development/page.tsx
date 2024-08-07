@@ -35,7 +35,7 @@ export default function Page() {
               <strong>Market Reach:</strong> With the largest market share
               globally, Android offers unparalleled reach. Our app development
               ensures your brand is accessible to a broad audience, maximizing
-              your app's potential impact.
+              your app&apos;s potential impact.
             </li>
             <li>
               <strong>Customization:</strong> Android allows for extensive
@@ -46,8 +46,9 @@ export default function Page() {
             <li>
               <strong>Scalability:</strong> Our Android apps are built with
               scalability in mind, allowing your app to grow alongside your
-              business. Whether you're starting small or aiming for extensive
-              functionality, our development adapts to your requirements.
+              business. Whether you&apos;re starting small or aiming for
+              extensive functionality, our development adapts to your
+              requirements.
             </li>
             <li>
               <strong>Cutting-Edge Technologies:</strong> We stay at the
@@ -79,7 +80,7 @@ export default function Page() {
             </li>
             <li>
               <strong>Testing:</strong> Rigorous testing is conducted to ensure
-              the app's performance, security, and responsiveness.
+              the app&apos;s performance, security, and responsiveness.
             </li>
             <li>
               <strong>Launch and Support:</strong> We guide you through the
@@ -90,10 +91,10 @@ export default function Page() {
           <h3>Transform Your Vision into an Android App</h3>
           <p>
             Empower your brand with our Android Mobile App Development services.
-            Whether you're entering the app market for the first time or seeking
-            to enhance an existing app, DMCS Ventures is your trusted partner
-            for Android app excellence. Contact us today to bring your vision to
-            the fingertips of Android users worldwide.
+            Whether you&apos;re entering the app market for the first time or
+            seeking to enhance an existing app, DMCS Ventures is your trusted
+            partner for Android app excellence. Contact us today to bring your
+            vision to the fingertips of Android users worldwide.
           </p>
         </div>
       </section>

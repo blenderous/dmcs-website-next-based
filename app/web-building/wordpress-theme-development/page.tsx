@@ -81,7 +81,7 @@ export default function Page() {
             </li>
             <li>
               <strong>Testing:</strong> Rigorous testing is conducted to ensure
-              the theme's compatibility, responsiveness, and performance.
+              the theme&apos;s compatibility, responsiveness, and performance.
             </li>
             <li>
               <strong>Deployment:</strong> The final WordPress theme is deployed
@@ -92,11 +92,11 @@ export default function Page() {
           <h3>Transform Your Website Aesthetics and Functionality</h3>
           <p>
             Elevate your online presence with our WordPress Theme Development
-            Service. Whether you're starting from scratch or looking to revamp
-            your existing theme, DMCS Ventures is your trusted partner for
-            creating visually appealing and highly functional WordPress themes.
-            Contact us today to embark on a journey towards a captivating online
-            experience.
+            Service. Whether you&apos;re starting from scratch or looking to
+            revamp your existing theme, DMCS Ventures is your trusted partner
+            for creating visually appealing and highly functional WordPress
+            themes. Contact us today to embark on a journey towards a
+            captivating online experience.
           </p>
         </div>
       </section>

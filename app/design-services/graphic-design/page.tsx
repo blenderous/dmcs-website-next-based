@@ -46,7 +46,7 @@ export default function Page() {
               <strong>Versatility in Design:</strong> Whether you need a new
               logo, engaging social media graphics, or print materials, our
               graphic design services cover a spectrum of needs. Our versatile
-              approach ensures that your brand's visual communication is
+              approach ensures that your brand&apos;s visual communication is
               cohesive across all platforms.
             </li>
             <li>
@@ -88,11 +88,11 @@ export default function Page() {
           </ul>
           <h3>Transform Your Visual Presence</h3>
           <p>
-            Empower your brand with captivating graphic designs. Whether you're
-            rebranding, launching a new product, or enhancing your online
-            presence, DMCS Ventures is your trusted partner for graphic design
-            excellence. Contact us today to embark on a visual journey that
-            leaves a lasting impression.
+            Empower your brand with captivating graphic designs. Whether
+            you&apos;re rebranding, launching a new product, or enhancing your
+            online presence, DMCS Ventures is your trusted partner for graphic
+            design excellence. Contact us today to embark on a visual journey
+            that leaves a lasting impression.
           </p>
         </div>
       </section>

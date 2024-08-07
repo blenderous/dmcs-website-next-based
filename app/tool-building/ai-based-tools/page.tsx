@@ -94,11 +94,11 @@ export default function Page() {
           <h3>Transform Your Operations with Intelligent Tools</h3>
           <p>
             Empower your business with our AI-Based Tool Building Service.
-            Whether you're looking to enhance existing processes or introduce
-            entirely new capabilities, DMCS Ventures is your trusted partner for
-            creating AI-based tools that drive innovation and efficiency.
-            Contact us today to embark on a journey towards a more intelligent
-            and automated future.
+            Whether you&apos;re looking to enhance existing processes or
+            introduce entirely new capabilities, DMCS Ventures is your trusted
+            partner for creating AI-based tools that drive innovation and
+            efficiency. Contact us today to embark on a journey towards a more
+            intelligent and automated future.
           </p>
         </div>
       </section>

@@ -39,21 +39,21 @@ export default function Page() {
             </li>
             <li>
               <strong>Design Finesse:</strong> Aesthetics matter. Our iOS app
-              designs are meticulously crafted to align with Apple's design
+              designs are meticulously crafted to align with Apple&apos;s design
               principles, ensuring a visually stunning and cohesive interface
               that enhances user engagement.
             </li>
             <li>
               <strong>Swift Development:</strong> We leverage the power of
-              Swift, Apple's programming language, to build high-performance iOS
-              applications. This allows for faster development, enhanced
-              security, and optimal app performance.
+              Swift, Apple&apos;s programming language, to build
+              high-performance iOS applications. This allows for faster
+              development, enhanced security, and optimal app performance.
             </li>
             <li>
               <strong>App Store Compliance:</strong> Navigating the App Store
               requires expertise. We ensure that your iOS app complies with
-              Apple's guidelines, facilitating a smooth submission process and
-              ensuring visibility to your target audience.
+              Apple&apos;s guidelines, facilitating a smooth submission process
+              and ensuring visibility to your target audience.
             </li>
             <li>
               <strong>Regular Updates and Maintenance:</strong> The iOS
@@ -89,7 +89,7 @@ export default function Page() {
           <h3>Elevate Your iOS App Experience</h3>
           <p>
             Transform your ideas into reality with our iOS Mobile App
-            Development services. Whether you're launching a new app or
+            Development services. Whether you&apos;re launching a new app or
             upgrading an existing one, DMCS Ventures is your trusted partner for
             iOS app excellence. Contact us today to unlock the full potential of
             iOS for your brand.

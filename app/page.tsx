@@ -17,28 +17,13 @@ export default function Home() {
           <div className="text-on-3d">
             <h1>Experience Superior Online Presence</h1>
             <p className="hidden md:block">
-              Whether you're starting from scratch or looking to revamp your
-              current site, we have the expertise to turn your vision into
+              Whether you&apos;re starting from scratch or looking to revamp
+              your current site, we have the expertise to turn your vision into
               reality. Contact us today to embark on a journey towards a
               powerful and visually stunning online presence.
             </p>
           </div>
         </div>
-        {/* <div className="flex h-full items-center">
-          <div className="width-container">
-            <div className="flex w-full items-center">
-              <div className="text-on-3d w-full lg:w-6/12">
-                <h1>Experience Superior Online Presence</h1>
-                <p className="hidden md:block">
-                  Whether you're starting from scratch or looking to revamp your
-                  current site, we have the expertise to turn your vision into
-                  reality. Contact us today to embark on a journey towards a
-                  powerful and visually stunning online presence.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </header>
       <section className="pink-section">
         <div className="width-container">
