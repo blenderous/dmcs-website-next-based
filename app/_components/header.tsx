@@ -1,0 +1,14 @@
+import Link from "next/link";
+
+const Header = () => {
+  return (
+    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-14 mt-32 flex items-center">
+      <Link href="/blog" className="hover:underline">
+        Blog
+      </Link>
+      .
+    </h2>
+  );
+};
+
+export default Header;

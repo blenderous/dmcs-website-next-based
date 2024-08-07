@@ -1,113 +1,155 @@
 import Image from "next/image";
+import Link from "next/link";
+import Spline from "@splinetool/react-spline/next";
+import { MoreStories } from "@/app/_components/more-stories";
+import { getAllPosts } from "@/app/lib/api";
+import { PostPreview } from "./_components/post-preview";
 
 export default function Home() {
+  const allPosts = getAllPosts();
+
+  const latestPosts = allPosts.slice(0, 3);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <header className="crazy-3d-background">
+        <Spline scene="https://prod.spline.design/CV0kdpZtWMWRd5AA/scene.splinecode" />
+        <div className="width-container">
+          <div className="text-on-3d">
+            <h1>Experience Superior Online Presence</h1>
+            <p className="hidden md:block">
+              Whether you're starting from scratch or looking to revamp your
+              current site, we have the expertise to turn your vision into
+              reality. Contact us today to embark on a journey towards a
+              powerful and visually stunning online presence.
+            </p>
+          </div>
         </div>
-      </div>
-
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        {/* <div className="flex h-full items-center">
+          <div className="width-container">
+            <div className="flex w-full items-center">
+              <div className="text-on-3d w-full lg:w-6/12">
+                <h1>Experience Superior Online Presence</h1>
+                <p className="hidden md:block">
+                  Whether you're starting from scratch or looking to revamp your
+                  current site, we have the expertise to turn your vision into
+                  reality. Contact us today to embark on a journey towards a
+                  powerful and visually stunning online presence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> */}
+      </header>
+      <section className="pink-section">
+        <div className="width-container">
+          <div className="w-full pt-4 md:flex">
+            <div className="w-full md:w-6/12 md:pr-10">
+              <h2>Elevate your brand with our Website Development Service</h2>
+              <Link className="btn" href={"/contact-us/"}>
+                Contact Us
+              </Link>
+            </div>
+            <p className="mt-10 w-full md:mt-0 md:w-6/12">
+              In the dynamic landscape of the digital world, a robust online
+              presence is pivotal for the success of any business. Our Website
+              Development Service is tailored to empower your brand with a
+              cutting-edge and seamlessly functioning website. At DMCS Ventures,
+              we understand the intricate balance between aesthetic appeal and
+              functionality, ensuring that your online platform not only looks
+              impressive but also performs seamlessly.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="white-section">
+        <div className="width-container">
+          <ul className="info-tiles grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4">
+            <li>
+              <Image
+                src="/assets/tile-icons/responsive-design.svg"
+                alt=""
+                width={162}
+                height={106}
+              />
+              <h3>Responsive Design</h3>
+              <p>
+                In an era where users access websites from various devices, we
+                prioritize responsive design. Your website will look stunning
+                and function flawlessly on desktops, tablets, and mobile phones
+                alike.
+              </p>
+            </li>
+            <li>
+              <Image
+                src="/assets/tile-icons/seo.svg"
+                alt=""
+                width={162}
+                height={106}
+              />
+              <h3>SEO-Optimized</h3>
+              <p>
+                Enhance your online visibility with our SEO-friendly website
+                structures. We implement best practices to optimize your website
+                for search engines, driving organic traffic to your platform.
+              </p>
+            </li>
+            <li>
+              <Image
+                src="/assets/tile-icons/tailored-solutions.svg"
+                alt=""
+                width={162}
+                height={106}
+              />
+              <h3>Tailored Solutions</h3>
+              <p>
+                Our team of skilled developers takes a personalized approach to
+                understand your business needs. We craft websites that are
+                unique to your brand, reflecting your values and goals.
+              </p>
+            </li>
+            <li>
+              <Image
+                src="/assets/tile-icons/scalability.svg"
+                alt=""
+                width={162}
+                height={106}
+              />
+              <h3>Scalability</h3>
+              <p>
+                As your business grows, so should your website. Our development
+                team builds scalable solutions, allowing your website to evolve
+                seamlessly as your business expands.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      {/* blog section */}
+      {latestPosts.length === 0 && <p>Oops! Could not fetch blog posts.</p>}
+      <section className="pink-section">
+        <div className="width-container">
+          <ul className="article-tiles grid grid-cols-1 gap-6 text-center md:grid-cols-1 lg:grid-cols-3">
+            {latestPosts.map((post) => (
+              <li key={post.slug}>
+                <PostPreview
+                  key={post.slug}
+                  title={post.title}
+                  coverImage={post.coverImage}
+                  date={post.date}
+                  author={post.author}
+                  slug={post.slug}
+                  excerpt={post.excerpt}
+                />
+              </li>
+            ))}
+          </ul>
+          <div className="mt-10">
+            <Link className="btn" href={"/blog"}>
+              Read All
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
