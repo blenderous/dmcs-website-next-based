@@ -50,9 +50,10 @@ export function generateMetadata({ params }: Params): Metadata {
     return notFound();
   }
 
-  const title = `${post.title} | Next.js Blog Example with ${CMS_NAME}`;
+  const title = `${post.title} | From the DMCS Blog`;
 
   return {
+    metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
     title,
     openGraph: {
       title,

@@ -3,10 +3,10 @@ import { Sarabun } from "next/font/google";
 import "./globals.css";
 import NavBar from "./_components/navbar/NavBar";
 
-const sarabun = Sarabun({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
-});
+// const sarabun = Sarabun({
+//   subsets: ["latin"],
+//   weight: ["100", "200", "300", "400", "500", "600", "700"],
+// });
 
 export const metadata: Metadata = {
   title: "DMCS Ventures",
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={sarabun.className}>
+      <body>
         <NavBar />
         <div className="contents">{children}</div>
         <footer>
